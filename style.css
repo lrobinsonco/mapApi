@@ -3,7 +3,20 @@ html,
    height: 100%;
    margin: 0;
    padding: 0;
+   display : flex;
+   flex-flow : column;
  }
+
+body {
+  flex : auto;
+}
+
+main {
+  display : flex;
+  flex : auto;
+}
+
+
 
  #title {
    position: absolute;
@@ -14,9 +27,14 @@ html,
    padding: 3px;
    border: 1px solid #999;
    font-family: sans-serif;
+   flex : auto;
  }
 
+
+
  #map{
-   height: 100%;
-   top: 24px;
+   
+   flex : auto;
+   /*height: 100%;
+   top: 24px;*/
  }
