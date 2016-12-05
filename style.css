@@ -19,21 +19,33 @@ main {
 
 
  #title {
-   position: absolute;
+   position: static;
    text-align: center;
    width: 100%;
    z-index: 10;
    background-color: #fff;
    padding: 3px;
-   border: 1px solid #999;
+   border-radius: 15px 15px 15px 15px;
+   border: 6px solid #000000;
    font-family: sans-serif;
    flex : auto;
  }
+#outerdiv{
+  position: relative;;
+  margin: 0 auto;
+  width: 600px;
 
+  padding: 20px;
+  color: white;
+
+  border-radius: 15px 15px 15px 15px;
+  border: 6px solid #000000;
+
+}
 
 
  #map{
-   
+
    flex : auto;
    /*height: 100%;
    top: 24px;*/

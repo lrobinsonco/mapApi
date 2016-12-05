@@ -27,7 +27,7 @@ function initMap() {
         position: home,
         pov: {
           heading: 85,
-          pitch: 9
+          pitch: 8
         }
       });
   map.setStreetView(panorama)
